@@ -38,8 +38,8 @@ $(function(){
 		
 		});
     
-	$(window).on("resize", function() 
-		navScroll=[];
+	$(window).on("resize", function() {
+        $(".nav:visible").length && navScroll=[];
 		$navA.each(function(){
 			var top=$($(this).attr("href")).offset().top;
 			navScroll.push(top);
