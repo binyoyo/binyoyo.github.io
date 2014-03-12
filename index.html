@@ -28,7 +28,7 @@ title: Binyoyo blog
 				<h1><a href="/">HOME<a></h1>
 				<h3><a href="/">>>More<a></h3>
 				<ul class="artical">
-					{% for post in site.categories.blog %}
+					{% for post in site.posts %}
 					<li>
 						<h2><a href="{{ post.url }}" title="1">{{ post.title }}</a></h2>
 						<p>{{ post.description }}</p>
