@@ -1,1 +1,2 @@
-baseurl:/binyoyo.github.io
+auto:true
+markdown: rdiscount
