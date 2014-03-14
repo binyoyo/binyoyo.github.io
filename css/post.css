@@ -83,6 +83,7 @@ a,li{
 	margin-top:7%;
 	padding-bottom:5%;
 	width:100%;
+	min-height:500px;
 }
 .main ul li a{
 	color:#000;
@@ -90,29 +91,27 @@ a,li{
 .main ul li a:hover{
 	color:#666;
 }
-.post{
+.artical{
 	width:70%;
+	padding:10% 0 5% 5%;
 }
-.post div{
-	padding:36px 5%;
-}
-
-.post ul li{
-	padding:45px 12% 5px;
-}
-.post ul h2{
+.artical h2{
 	font-weight:bold;
 	font-size:1.2em;
 	margin-bottom:10px;
 }
-.post ul p{
-	font-size:0.9em;
+.artical p{
+	line-height: 1.5em;
+	margin: 1.5em;
 }
 .list_nav{
 	float:right;
 	line-height:2em;
-	margin:10% 10% 0 0;
+	margin:10% 8% 0 5%;
 	width: 200px;
+}
+.list_nav h1{
+	font-size:1.3em;
 }
 .list_nav div{
 	border-left: 1px solid #cccccc;
@@ -141,8 +140,10 @@ a,li{
 	.header{
 		width:94%;
 	}
-	.post{
-		width:100%;
+	.artical{
+		width: 85%;
+		margin: 0 auto;
+		padding-top: 10%;
 	}
 	.list_nav{
 		display: none;
