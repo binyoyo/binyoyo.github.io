@@ -44,7 +44,7 @@ title: Binyoyo blog
         <h1><a href="/blog">Blog</a></h1>
         <h3><a href="/blog">>>More</a></h3>
         <ul class="artical">
-        {% for post in site.posts %}
+        {% for post in site.categories.blog %}
         <li>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.date }}</p>
@@ -55,12 +55,12 @@ title: Binyoyo blog
         <li>
            
      </ul>
-    </div><!-- /what I do -->
+    </div><!-- /blog -->
      <div class="life">
         <h1><a href="/life">Life</a></h1>
         <h3><a href="/life">>>More</a></h3>
         <ul class="artical">
-        {% for post in site.posts %}
+        {% for post in site.categories.life %}
         <li>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.date }}</p>
@@ -71,7 +71,7 @@ title: Binyoyo blog
         <li>
            
      </ul>
-    </div><!-- /what I do -->
+    </div><!-- /life -->
      <div class="me">
         <h1><a href="/me">Me</a></h1>
         <h3><a href="/me">>>More</a></h3>
