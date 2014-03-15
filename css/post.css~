@@ -92,7 +92,7 @@ a,li{
 	color:#666;
 }
 .artical{
-	width:70%;
+	width:60%;
 	padding:10% 0 5% 5%;
 }
 .artical h2{
@@ -102,12 +102,21 @@ a,li{
 }
 .artical p{
 	line-height: 1.5em;
-	margin: 1.5em;
+	margin: 1em 0;
+}
+.artical pre{
+	background: #1F1C1C;
+	border: 1px solid #d0d0d0;
+	border-radius: 10px 10px;
+	padding: 5px 0 5px 30px;
+}
+code{
+	color: #fff;
 }
 .list_nav{
 	float:right;
 	line-height:2em;
-	margin:10% 10% 0 0;
+	margin:10% 8% 0 5%;
 	width: 200px;
 }
 .list_nav h1{
@@ -116,6 +125,7 @@ a,li{
 .list_nav div{
 	border-left: 1px solid #cccccc;
 	padding-left:15px;
+	margin-bottom:30px;
 }
 .list_nav li{
 	white-space: nowrap;

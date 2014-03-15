@@ -91,8 +91,8 @@ body{
 .main h3{
 	text-align: right;
 	padding-right: 12%;
-	font-size: 1.2em;
-	color: black;
+	font-size: 1.1em;
+	color: #aaa;
 	text-shadow: 3px 1px 1px hsla(140,3%,26%,0.25);
 }
 
@@ -107,11 +107,17 @@ body{
 .main ul h2{
 	font-weight:bold;
 	font-size:1.2em;
-	margin-bottom:10px;
+	margin-bottom:5px;
 }
 
 .main ul p{
+	font-size:1em;
+}
+time{
+	color:#aaa;
+	margin-bottom:5px;
 	font-size:0.9em;
+	display:block;
 }
 
 .footer{
