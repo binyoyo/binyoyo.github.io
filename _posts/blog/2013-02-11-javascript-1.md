@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "一些js问题的小总结"
-date: 2013-01-13
+date: 2013-02-11
 categories: blog
 description: 翻看js书籍和敲代码时候遇到的一些问题，查询资料后做了一些总结。
 ---
