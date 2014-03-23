@@ -80,6 +80,6 @@ title: Binyoyo blog
         </div><!-- / -->  
     </div><!-- /what I do -->
 </div><!-- /主框架 -->
-
-<script src="js/index.js" ></script>
 <script src="http://binyoyo.github.io/js/jquery.js"></script>
+<script src="http://binyoyo.github.io/js/index.js" ></script>
+

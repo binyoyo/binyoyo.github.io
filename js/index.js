@@ -29,7 +29,7 @@ $(function(){
 	//点击进入首页
 	$(".loging").on("click",function(a){
 		$overlay.animate({opacity:"0",display:"none"},1000)
-			    .hide(1000);
+			    .hide(500);
 		$("body").css('overflow','auto');
 		a.preventDefault();
 	})
