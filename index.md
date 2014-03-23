@@ -37,7 +37,7 @@ title: Binyoyo blog
         <h1><a href="/blog">Blog</a></h1>
         <h3><a href="/blog">>>More</a></h3>
         <ul class="article">
-        {% for post in site.categories.blog limit:4 %}
+        {% for post in site.categories.blog limit:5 %}
         <li>
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
               <time>{{ post.date | date:"%B %e, %Y" }}</time>
@@ -53,7 +53,7 @@ title: Binyoyo blog
         <h1><a href="/life">Life</a></h1>
         <h3><a href="/life">>>More</a></h3>
         <ul class="article">
-            {% for post in site.categories.life limit:4 %}
+            {% for post in site.categories.life limit:5 %}
              <li>
              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
              <time>{{ post.date | date:"%B %e, %Y" }}</time>
