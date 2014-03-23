@@ -2,7 +2,15 @@
 layout: default
 title: Binyoyo blog
 ---
-<link rel="stylesheet" href="css/index.css">
+<div class="overlay">
+            <div class="log">
+              <h1>BINYOYO</h1>
+              <h2>woo!..welcome</h2>
+              <div class="loging">
+                <a href="#">Come in</a>
+              </div>
+            </div>
+</div>
 <div class="header">
    <div class="logo">
       <span class="user_image">
@@ -14,10 +22,10 @@ title: Binyoyo blog
 
      <div class="nav">
         <ul >
-        <li><a href=".home" title="" class="active">HOME</a></li>
-        <li><a href=".blog" title="">Blog</a></li>
-        <li><a href=".life" title="">Life</a></li>
-        <li><a href=".me" title="">Me</a></li>
+        <li><a href="/" title=".blog" class="active">HOME</a></li>
+        <li><a href="/blog" title=".blog">Blog</a></li>
+        <li><a href="/life" title=".life">Life</a></li>
+        <li><a href="/" title=".me">Me</a></li>
         
         </ul>
    
@@ -25,21 +33,6 @@ title: Binyoyo blog
 
 </div><!-- /header -->
 <div  class="main">
-     <div class="home">
-        <h1><a href="/">HOME</a></h1>
-        <h3><a href="/">>>More</a></h3>
-        <ul class="artical">
-        {% for post in site.categories.blog limit:4 %}
-            <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <time>{{ post.date | date:"%B %e, %Y" }}</time>
-                <p>{{ post.description }}</p>
-            </li>
-        {% endfor %}
-        
-     </ul>
-    </div><!-- /what I do -->
-
      <div class="blog">
         <h1><a href="/blog">Blog</a></h1>
         <h3><a href="/blog">>>More</a></h3>
@@ -73,22 +66,18 @@ title: Binyoyo blog
      </ul>
     </div><!-- /life -->
      <div class="me">
-        <h1><a href="/me">Me</a></h1>
-        <h3><a href="/me">>>More</a></h3>
-        <ul class="artical">
-        {% for post in site.posts offset:4 limit:4 %}
-        <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <time>{{ post.date | date:"%B %e, %Y" }}</time>
-        {{ post.description }}
-        </li>
-        {% endfor %}
-
-        <li>
-           
-     </ul>
+        <h1><a href="/">Me</a></h1>
+        <div class="aboutme">
+          <h2>徐彬</h2>
+          <p>binyoyo</p>
+          <p>广工计算机学院（俗称'计院'）</p>
+          <h2>爱生活、懂感恩、享受生活</h2>
+          <p>现阶段最成功的事：我不是单身！woo！哈哈。。。</p>
+          <p>每天提醒自己感谢每一个陪伴过你的人</p>
+          <p>Qq:160413701</p>
+          <p>Email:qqxubin963@gmail.com</p>
+          <p>Github:https://github.com/binyoyo</p>
+        </div><!-- / -->  
     </div><!-- /what I do -->
 </div><!-- /主框架 -->
-
 <script src="js/index.js" ></script>
-<script src="js/binyoyo.js"></script>
