@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "坑爹的IE，在z-index的问题"
-date: 2013-01-13
+date: 2012-11-07
 categories: blog
 description: 写demo的时候遇到，ie6的bug，设置层级z-index不起作用了，网上查阅了些资料，自己记录一下。
 ---
