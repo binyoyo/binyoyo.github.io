@@ -2,15 +2,6 @@
 layout: default
 title: Binyoyo blog
 ---
-<div class="overlay">
-            <div class="log">
-              <h1>BINYOYO</h1>
-              <h2>woo!..welcome</h2>
-              <div class="loging">
-                <a href="#">Come in</a>
-              </div>
-            </div>
-</div>
 <div class="header">
    <div class="logo">
       <span class="user_image">

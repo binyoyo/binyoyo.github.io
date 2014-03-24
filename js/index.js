@@ -23,16 +23,7 @@ $(function(){
         	}
     })
 
-	var $navA = $(".nav a"),$header=$(".header"),$overlay=$('.overlay');
-	var windowheight=$(window).height();
-	$overlay.css('height',windowheight);
-	//点击进入首页
-	$(".loging").on("click",function(a){
-		$overlay.animate({opacity:"0",display:"none"},1000)
-			    .hide(500);
-		$("body").css('overflow','auto');
-		a.preventDefault();
-	})
+	var $navA = $(".nav a"),$header=$(".header");
 	var navScroll=[];
 	$navA.each(function(){
 		var top=$($(this).attr("title")).offset().top;
