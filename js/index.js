@@ -50,12 +50,18 @@ $(function(){
 	})
 
     //窗口大小变化或者转屏后重新录入offsetTop
-	$(window).on("resize", function() {
-        navScroll=[];
-		$navA.each(function(){
-			var top=$($(this).attr("title")).offset().top;
-			navScroll.push(top);
-			})
-        
-        })
+    var resizeTimer = null;
+
+    $(window).on("resize", function() {
+        if (resizeTimer) {
+            clearTimeout(resizeTimer)
+        }
+        resizeTimer = setTimeout(function(){
+            navScroll=[];
+            $navA.each(function(){
+                var top=$($(this).attr("title")).offset().top;
+                navScroll.push(top);
+            })
+        }, 400);     
+    })
 })
